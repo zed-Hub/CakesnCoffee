@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cakes & Coffee - Zed De Guia - Exercise 7</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/main.css">
+
+        <script src="./js/jquery-3.5.1.min.js"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+
+
+    </head>
+    <body>
+        <div class="container main-container">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo-2.3-mini.png" alt="Cakes & Coffee" width="40" height="40">
+                    Cakes & Coffee
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation" id="navbarToggler">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active" id="home">
+                            <a href="#" class="nav-link">HOME</a>
+                        </li>
+                        <li class="nav-item" id="cakes">
+                            <a href="#" class="nav-link">CAKE</a>
+                        </li>
+                        <li class="nav-item" id="coffee">
+                            <a href="#" class="nav-link">COFFEE</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+            <main>
+                <section id="homeSection">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="./images/carousel/coffeeshop.jpg" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="carousel-h5">Autumn days, all ways</h5>
+                                    <p>Savor the flavors of the season with our Pumpkin Spice Latte and Salted Caramel Mocha.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./images/carousel/food.jpg" alt="Second slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="carousel-h5">The rarest, most extraordinary coffees Cakes&Coffee has to offer</h5>
+                                    <p>Exceptional coffees from around the world. Sourced for the season, roasted at Cakes&Coffee Reserve® Roasteries and crafted with care.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./images/carousel/coffeeshop2.jpg" alt="Third slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="carousel-h5">How to Brew</h5>
+                                    <p>It’s surprising how different brewing methods can enhance particular characteristics in your coffee. Let us help you unlock the full potential of your coffee—for the perfect cup every time.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./images/carousel/food2.jpg" alt="Fourth slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="carousel-h5">Sustainable Coffee</h5>
+                                    <p>Making coffee the world’s first sustainable product to improve the lives of at least 1 million people in coffee communities around the world.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./images/carousel/coffeeshop3.jpg" alt="Fifth slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="carousel-h5">Falling for you, cold brew</h5>
+                                    <p>Enjoy Nitro Cold Brew black or topped with house-made sweet cream for velvety-smooth sipping.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./images/carousel/food3.jpg" alt="Sixth slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="carousel-h5">Unbelievably delicious</h5>
+                                    <p>Start your day with the new, protein-packed Impossible™ Breakfast Sandwich**, featuring Impossible™ Sausage Made from Plants and a cage-free fried egg.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="jumbotron text-center">
+                        <h1 class="display-4">Our Sweet Journey!</h1>
+                        <p class="lead">Our mission is simple: to provide the best gluten free products and service to our customers at the lowest prices possible. We take great pride in our company, our commitment to customer service and in the products we sell.</p>
+                        <hr class="my-4">
+                        <blockquote class="blockquote">
+                            <p class="mb-0">Cakes are special. Every birthday, every celebration ends with something sweet, a cake, and people remember. It’s all about the memories.</p>
+                            <footer class="blockquote-footer">Buddy Valastro</footer>
+                        </blockquote>
+                        <p>
+                            <a class="btn btn-primary btn-lg" href="#" role="button" id="checkoutCakes">Our fresh cakes</a>
+                        </p>
+                        <p>
+                            <a class="btn btn-primary btn-lg" href="#" role="button" id="checkoutCoffee">Our fresh brews</a>
+                        </p>
+
+                    </div>
+                </section>
+                <section id="cakesSection">
+                    <div class="row menu-title">
+                        <div class="col">
+                            <h3>
+                                Homemade Cakes.
+                                <small class="text-muted">Baked fresh for you.</small>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="row menu-row">
+                        <div class="col-md menu-wrap">
+                            <div class="card menu-card">
+                                <img src="./images/banana-swirl-cake.png" class="card-img-top" alt="Banana Swirl Cake">
+                                <div class="card-body">
+                                    <h5 class="card-title">Banana Swirl Cake</h5>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Large
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <button class="dropdownItem1 dropdown-item">Small</button>
+                                            <button class="dropdownItem1 dropdown-item">Medium</button>
+                                            <button class="dropdownItem1 dropdown-item active">Large</button>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">Price:
+                                        <span class="cake1-price">P995</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md menu-wrap">
+                            <div class="card menu-card">
+                                <img src="./images/cappucino-cake.png" class="card-img-top" alt="Cappucino Cake">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cappucino Cake</h5>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Large
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <button class="dropdownItem2 dropdown-item active">Small</button>
+                                            <button class="dropdownItem2 dropdown-item">Medium</button>
+                                            <button class="dropdownItem2 dropdown-item">Large</button>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">Price:
+                                        <span class="cake2-price">P995</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md menu-wrap">
+                            <div class="card menu-card">
+                                <img src="./images/chocolate-decadent-cake.png" class="card-img-top" alt="Cappucino Cake">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chocolate Decadent Cake</h5>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Large
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <button class="dropdownItem3 dropdown-item active">Small</button>
+                                            <button class="dropdownItem3 dropdown-item">Medium</button>
+                                            <button class="dropdownItem3 dropdown-item">Large</button>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">Price:
+                                        <span class="cake3-price">P995</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md menu-wrap">
+                            <div class="card menu-card">
+                                <img src="./images/mango-cream-cake.png" class="card-img-top" alt="Mango Cream Cake">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mango Cream Cake</h5>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Large
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <button class="dropdownItem4 dropdown-item active">Small</button>
+                                            <button class="dropdownItem4 dropdown-item">Medium</button>
+                                            <button class="dropdownItem4 dropdown-item">Large</button>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">Price:
+                                        <span class="cake4-price">P995</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md menu-wrap">
+                            <div class="card menu-card">
+                                <img src="./images/red-velvet-cake.png" class="card-img-top" alt="Red Velvet Cake">
+                                <div class="card-body">
+                                    <h5 class="card-title">Red Velvet Cake</h5>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Large
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <button class="dropdownItem5 dropdown-item active">Small</button>
+                                            <button class="dropdownItem5 dropdown-item">Medium</button>
+                                            <button class="dropdownItem5 dropdown-item">Large</button>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">Price:
+                                        <span class="cake5-price">P995</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md menu-wrap">
+                            <div class="card menu-card">
+                                <img src="./images/triple-choco-cake.png" class="card-img-top" alt="Triple Chocolate Cake">
+                                <div class="card-body">
+                                    <h5 class="card-title">Triple Chocolate Cake</h5>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Large
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <button class="dropdownItem6 dropdown-item active">Small</button>
+                                            <button class="dropdownItem6 dropdown-item">Medium</button>
+                                            <button class="dropdownItem6 dropdown-item">Large</button>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">Price:
+                                        <span class="cake6-price">P995</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="coffeeSection">
+                    <div class="row menu-title">
+                        <div class="col">
+                            <h3>
+                                Homemade Coffee.
+                                <small class="text-muted">Brewed fresh for you.</small>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="row menu-row">
+                        <div class="col-md menu-wrap">
+                            <div class="card menu-card">
+                                <img src="./images/coffee/coffee-americano.jpg" class="card-img-top" alt="Americano">
+                                <div class="card-body">
+                                    <h5 class="card-title">Americano</h5>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton-coffee1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Large
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <button class="dropdownItem-coffee1 dropdown-item active">Small</button>
+                                            <button class="dropdownItem-coffee1 dropdown-item">Medium</button>
+                                            <button class="dropdownItem-coffee1 dropdown-item">Large</button>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">Price:
+                                        <span class="price-coffee1"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md menu-wrap">
+                            <div class="card menu-card">
+                                <img src="./images/coffee/coffee-cafelatte.jpg" class="card-img-top" alt="Caffe Latte">
+                                <div class="card-body">
+                                    <h5 class="card-title">Caffe Latte</h5>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton-coffee2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Large
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <button class="dropdownItem-coffee2 dropdown-item active">Small</button>
+                                            <button class="dropdownItem-coffee2 dropdown-item">Medium</button>
+                                            <button class="dropdownItem-coffee2 dropdown-item">Large</button>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">Price:
+                                        <span class="price-coffee2"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md menu-wrap">
+                            <div class="card menu-card">
+                                <img src="./images/coffee/coffee-cappuccino.jpg" class="card-img-top" alt="Cappucino">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cappuccino</h5>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton-coffee3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Large
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <button class="dropdownItem-coffee3 dropdown-item active">Small</button>
+                                            <button class="dropdownItem-coffee3 dropdown-item">Medium</button>
+                                            <button class="dropdownItem-coffee3 dropdown-item">Large</button>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">Price:
+                                        <span class="price-coffee3"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md menu-wrap">
+                            <div class="card menu-card">
+                                <img src="./images/coffee/coffee-macchiato.jpg" class="card-img-top" alt="Macchiato">
+                                <div class="card-body">
+                                    <h5 class="card-title">Macchiato</h5>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton-coffee4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Large
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <button class="dropdownItem-coffee4 dropdown-item active" href="#">Small</button>
+                                            <button class="dropdownItem-coffee4 dropdown-item" href="#">Medium</button>
+                                            <button class="dropdownItem-coffee4 dropdown-item" href="#">Large</button>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">Price:
+                                        <span class="price-coffee4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md menu-wrap">
+                            <div class="card menu-card">
+                                <img src="./images/coffee/coffee-caramelmacchiato.jpg" class="card-img-top" alt="Caramel Macchiato">
+                                <div class="card-body">
+                                    <h5 class="card-title">Caramel Macchiato</h5>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton-coffee5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Large
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <button class="dropdownItem-coffee5 dropdown-item active">Small</button>
+                                            <button class="dropdownItem-coffee5 dropdown-item">Medium</button>
+                                            <button class="dropdownItem-coffee5 dropdown-item">Large</button>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">Price:
+                                        <span class="price-coffee5"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md menu-wrap">
+                            <div class="card menu-card">
+                                <img src="./images/coffee/coffee-espresso.jpg" class="card-img-top" alt="Espresso">
+                                <div class="card-body">
+                                    <h5 class="card-title">Espresso</h5>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton-coffee6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Large
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <button class="dropdownItem-coffee6 dropdown-item active">Small</button>
+                                            <button class="dropdownItem-coffee6 dropdown-item">Medium</button>
+                                            <button class="dropdownItem-coffee6 dropdown-item">Large</button>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">Price:
+                                        <span class="price-coffee6"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md menu-wrap">
+                            <div class="card menu-card">
+                                <img src="./images/coffee/coffee-mocha.jpg" class="card-img-top" alt="Mocha">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mocha</h5>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton-coffee7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Large
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <button class="dropdownItem-coffee7 dropdown-item active">Small</button>
+                                            <button class="dropdownItem-coffee7 dropdown-item">Medium</button>
+                                            <button class="dropdownItem-coffee7 dropdown-item">Large</button>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">Price:
+                                        <span class="price-coffee7"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md menu-wrap">
+                            <div class="card menu-card">
+                                <img src="./images/coffee/coffee-darkmocha.jpg" class="card-img-top" alt="Dark Mocha">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dark Mocha</h5>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton-coffee8" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Large
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <button class="dropdownItem-coffee8 dropdown-item active">Small</button>
+                                            <button class="dropdownItem-coffee8 dropdown-item">Medium</button>
+                                            <button class="dropdownItem-coffee8 dropdown-item">Large</button>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">Price:
+                                        <span class="price-coffee8"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md menu-wrap">
+                            <div class="card menu-card">
+                                <img src="./images/coffee/coffee-mochalatte.jpg" class="card-img-top" alt="Mocha Latte">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mocha Latte</h5>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton-coffee9" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Large
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <button class="dropdownItem-coffee9 dropdown-item active" href="#">Small</button>
+                                                <button class="dropdownItem-coffee9 dropdown-item">Medium</button>
+                                                <button class="dropdownItem-coffee9 dropdown-item">Large</button>
+                                            </div>
+                                        </div>
+                                        <p class="card-text">Price:
+                                            <span class="price-coffee9"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+                <footer class="bg-dark">
+                    <div class="row contact-wrap">
+                        <div class="col-sm">
+                            <h6>CONTACT US:</h6>
+                            <ul class="list-unstyled">
+                                <li>+63 917 000 0001</li>
+                                <li>+63 917 000 0002</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm">
+                            <h6>EMAIL US:</h6>
+                            <p>z.deguia@fujitsu.com</p>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <script src="./js/main.js"></script>
+        </body>
+    </body>
+</html>

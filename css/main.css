@@ -1,0 +1,60 @@
+.main-container {
+    padding: 0;
+}
+
+main {
+    background-color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section {
+    background-color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-title {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.menu-row {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-wrap {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-card {
+    width: 18rem;
+    margin: auto;
+}
+
+.contact-wrap {
+    margin: 0;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.carousel-item{
+    height: auto;
+}
+.card-text {
+    padding: 5px 0px;    
+}
+.carousel-h5 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    -webkit-text-stroke: solid 2px black;
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 8px; 
+}
